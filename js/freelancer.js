@@ -1,16 +1,7 @@
 // Freelancer Theme JavaScript
 
-(function($) {
+$( document ).ready(function() {
     "use strict"; // Start of use strict
-
-    // jQuery for page scrolling feature - requires jQuery Easing plugin
-    $('.page-scroll a').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: ($($anchor.attr('href')).offset().top - 50)
-        }, 1250, 'easeInOutExpo');
-        event.preventDefault();
-    });
 
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
@@ -29,7 +20,10 @@
             top: 100
         }
     })
-
+    
+    $('#topScroll').click(function(){
+       $('html, body').animate({scrollTop:0}, "slow");
+    });
     // Floating label headings for the contact form
     $(function() {
         $("body").on("input propertychange", ".floating-label-form-group", function(e) {
@@ -41,4 +35,7 @@
         });
     });
 
-})(jQuery); // End of use strict
+    // $host = $('[mag-thumb="inner"]');
+    // $host.mag();
+
+}); // End of use strict

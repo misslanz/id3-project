@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue Lt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
 p {
@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #cccccc;
   outline: none;
 }
 h1,
@@ -27,9 +27,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 100;
+  letter-spacing: 3px;
 }
 hr.star-light,
 hr.star-primary {
@@ -54,23 +55,23 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
+  background-color: #cccccc;
   color: white;
 }
 hr.star-primary {
-  border-color: #2C3E50;
+  border-color: #000000;
 }
 hr.star-primary:after {
   background-color: white;
-  color: #2C3E50;
+  color: #B82601;
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #18BC9C;
-  color: white;
+  background: #cccccc;
+  color: black;
 }
 header .container {
   padding-top: 100px;
@@ -82,14 +83,15 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 100;
   font-size: 2em;
+  letter-spacing: 5px;
 }
 header .intro-text .skills {
   font-size: 1.25em;
-  font-weight: 300;
+  font-weight: 50;
 }
 @media (min-width: 768px) {
   header .container {
@@ -105,9 +107,9 @@ header .intro-text .skills {
 }
 .navbar-custom {
   background: #17202A;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 100;
   border: none;
 }
 .navbar-custom a:focus {
@@ -129,7 +131,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: #B82601;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -138,13 +140,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #18BC9C;
+  background: #B82601;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  background: #B82601;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -154,9 +156,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
+  background-color: #B82601;
   color: white;
-  border-color: #18BC9C;
+  border-color: #B82601;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -186,7 +188,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
+  background: #cccccc;
   color: white;
 }
 @media (max-width: 767px) {
@@ -208,7 +210,7 @@ section.success {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(24, 188, 156, 0.9);
+  background: #B82601;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -289,7 +291,7 @@ section.success {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #cccccc;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -302,7 +304,7 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #2C3E50;
+  background-color: #B82601;
 }
 footer .footer-col {
   margin-bottom: 50px;
@@ -323,14 +325,14 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
+  color: #B82601;
   background: white;
   border: solid 2px white;
 }
 .btn-primary {
   color: white;
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #062F4F;
+  border-color: #062F4F;
   font-weight: 700;
 }
 .btn-primary:hover,
@@ -362,17 +364,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #062F4F;
+  border-color: #062F4F;
 }
 .btn-primary .badge {
-  color: #2C3E50;
+  color: #062F4F;
   background-color: white;
 }
 .btn-success {
   color: white;
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #cccccc;
+  border-color: #cccccc;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -404,11 +406,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #cccccc;
+  border-color: #cccccc;
 }
 .btn-success .badge {
-  color: #18BC9C;
+  color: #B82601;
   background-color: white;
 }
 .btn-social {
@@ -480,7 +482,7 @@ fieldset[disabled] .btn-success.active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #2C3E50;
+  background-color: #062F4F;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -491,7 +493,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #2C3E50;
+  background-color: #062F4F;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -503,11 +505,15 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
-.fa .fa-envelope {
-  height: 20px;
 
 
+/* My Custom CSS */
+
+#logo_image {
+  width: 34%;
 }
+
+
 
 
 

@@ -65,6 +65,7 @@ $(function() {
         e.preventDefault();
         $(this).tab("show");
     });
+
 });
 
 // When clicking on Full hide fail/success boxes
